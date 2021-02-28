@@ -16,7 +16,7 @@ export function FooterContainer() {
           </Footer.Column>
 
           <Footer.Column>
-            <Link href="#" style={linkStyles}>
+            <Link to="/PrivacyPolicy" style={linkStyles}>
               Privacy Policy
             </Link>
           </Footer.Column>
