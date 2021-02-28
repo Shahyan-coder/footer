@@ -8,6 +8,6 @@ export const GlobalStyles = createGlobalStyle`
         position: relative;
         top: 795px;
         background:  #A8DADC;
-        font-family: 'Saira', sans-serif;
+        font-family: 'Saira Semi Condensed', sans-serif;
     }
 `

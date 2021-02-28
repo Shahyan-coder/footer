@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../components/footer'
+import Icon from '../components/footer/icons'
 
 export function FooterContainer(){
     return(
@@ -19,15 +20,15 @@ export function FooterContainer(){
                 </Footer.Column>
 
                 <Footer.Column>
-                    <Footer.Link href="#">Linkedin</Footer.Link>
+                    <Footer.Link href="https://www.linkedin.com/company/wlu-phi-society/"><Icon className ="fab fa-linkedin" />Linkedin</Footer.Link>
                  </Footer.Column>
 
                  <Footer.Column>
-                      <Footer.Link href="#">Instagram</Footer.Link>
+                      <Footer.Link href="https://www.instagram.com/wluphi/"><Icon className ="fab fa-instagram" />Instagram</Footer.Link>
                  </Footer.Column>
 
                  <Footer.Column>
-                     <Footer.Link href="#">Facebook</Footer.Link>
+                     <Footer.Link href="https://www.facebook.com/wluPHI/"><Icon className ="fab fa-facebook" />Facebook</Footer.Link>
                  </Footer.Column>
                  </Footer.Row>
             </Footer.Wrapper>

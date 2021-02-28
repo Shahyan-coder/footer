@@ -27,11 +27,11 @@ export const Row = styled.div`
     grid-gap: 10px;
 `
 
-export const Link = styled.div`
+export const Link = styled.a`
     color: #000000;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: none;
 
     &:hover{
@@ -40,8 +40,8 @@ export const Link = styled.div`
     }
 ` 
 
-export const Title = styled.div`
-    font-size: 18px;
+export const Title = styled.p`
+    font-size: 19px;
     color: #000000;
     margin-right: 45px;
     margin-top: 10px;
