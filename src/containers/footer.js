@@ -2,20 +2,22 @@ import React from "react";
 import Footer from "../components/footer";
 import Icon from "../components/footer/icons";
 import { Link } from "react-router-dom";
+import { linkStyles } from "../components/footer/styles/footer";
+
 export function FooterContainer() {
   return (
     <Footer>
       <Footer.Wrapper>
         <Footer.Row>
           <Footer.Column>
-            <Link to="/TermsOfCondition">
-              <Footer.Link href="#">Terms of Service</Footer.Link>
+            <Link to="/TermsOfCondition" style={linkStyles}>
+              Terms Of Service
             </Link>
           </Footer.Column>
 
           <Footer.Column>
-            <Link to="/PrivacyPolicy">
-              <Footer.Link href="#">Privacy Policy</Footer.Link>
+            <Link href="#" style={linkStyles}>
+              Privacy Policy
             </Link>
           </Footer.Column>
 
